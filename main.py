@@ -1,3 +1,3 @@
 import qrcode
 img = qrcode.make('Github Webhook')
-img.save("github_webhook.png")
+img.save("gitHub_webhook.png")
