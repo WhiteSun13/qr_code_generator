@@ -1,0 +1,11 @@
+t=2023-03-14T10:23:35+0000 lvl=info msg="no configuration paths supplied"
+t=2023-03-14T10:23:35+0000 lvl=info msg="using configuration at default config path" path=/home/whitesun13/.config/ngrok/ngrok.yml
+t=2023-03-14T10:23:35+0000 lvl=info msg="open config file" path=/home/whitesun13/.config/ngrok/ngrok.yml err=nil
+t=2023-03-14T10:23:35+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2023-03-14T10:23:36+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2023-03-14T10:23:36+0000 lvl=info msg="client session established" obj=csess id=2655b144ad39
+t=2023-03-14T10:23:36+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8080 url=https://9749-85-91-223-159.eu.ngrok.io
+t=2023-03-14T10:23:36+0000 lvl=info msg="update available" obj=updater
+t=2023-03-14T10:25:04+0000 lvl=info msg="join connections" obj=join id=d3d198b6ca61 l=127.0.0.1:8080 r=85.91.223.159:56782
+t=2023-03-14T10:25:05+0000 lvl=info msg="join connections" obj=join id=ce413a32754c l=127.0.0.1:8080 r=85.91.223.159:56782
+t=2023-03-14T10:41:26+0000 lvl=info msg="join connections" obj=join id=363ef0635939 l=127.0.0.1:8080 r=140.82.115.84:28215
