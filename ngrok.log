@@ -329,3 +329,54 @@ t=2023-03-14T13:19:27+0000 lvl=eror msg="failed to reconnect session" obj=csess 
 t=2023-03-14T13:19:30+0000 lvl=info msg="tunnel session started" obj=tunnels.session
 t=2023-03-14T13:19:30+0000 lvl=info msg="client session established" obj=csess id=2655b144ad39
 t=2023-03-14T13:37:17+0000 lvl=info msg="join connections" obj=join id=68cb350e14a5 l=127.0.0.1:8080 r=140.82.115.96:51097
+t=2023-03-14T13:42:29+0000 lvl=info msg="join connections" obj=join id=e8a149d8b103 l=127.0.0.1:8080 r=140.82.115.251:55209
+t=2023-03-14T13:50:04+0000 lvl=eror msg="heartbeat timeout, terminating session" obj=csess id=bd6a407bca59 clientid=b38d6ed53ef989ede886f6b63b306c65
+t=2023-03-14T13:50:04+0000 lvl=eror msg="session closed, starting reconnect loop" obj=csess id=2655b144ad39 err="session closed"
+t=2023-03-14T13:50:14+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com: i/o timeout"
+t=2023-03-14T13:50:25+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com: i/o timeout"
+t=2023-03-14T13:50:31+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=A\": dial tcp: lookup dns.google.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:50:38+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:50:40+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="resolved tunnel.ngrok.com has no records"
+t=2023-03-14T13:50:49+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:50:58+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=A\": dial tcp: lookup dns.google.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:51:09+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:51:15+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="resolved tunnel.ngrok.com has no records"
+t=2023-03-14T13:51:29+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:51:50+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:52:17+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:52:57+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=A\": context deadline exceeded"
+t=2023-03-14T13:53:33+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:54:03+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="resolved tunnel.ngrok.com has no records"
+t=2023-03-14T13:54:37+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:55:14+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=A\": dial tcp: lookup dns.google.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:55:50+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:56:20+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="resolved tunnel.ngrok.com has no records"
+t=2023-03-14T13:56:56+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T13:57:36+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com: i/o timeout"
+t=2023-03-14T13:58:16+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com: i/o timeout"
+t=2023-03-14T13:58:56+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=AAAA\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"
+t=2023-03-14T13:59:32+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T14:00:02+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="resolved tunnel.ngrok.com has no records"
+t=2023-03-14T14:00:42+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com: i/o timeout"
+t=2023-03-14T14:01:22+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=AAAA\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"
+t=2023-03-14T14:01:58+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T14:02:28+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="resolved tunnel.ngrok.com has no records"
+t=2023-03-14T14:02:58+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T14:03:29+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2023-03-14T14:03:29+0000 lvl=info msg="client session established" obj=csess id=2655b144ad39
+t=2023-03-14T14:03:54+0000 lvl=eror msg="heartbeat timeout, terminating session" obj=csess id=9fdf587a4a43 clientid=b38d6ed53ef989ede886f6b63b306c65
+t=2023-03-14T14:03:54+0000 lvl=eror msg="session closed, starting reconnect loop" obj=csess id=2655b144ad39 err="session closed"
+t=2023-03-14T14:04:04+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com: i/o timeout"
+t=2023-03-14T14:04:14+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com: i/o timeout"
+t=2023-03-14T14:04:20+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=A\": dial tcp: lookup dns.google.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T14:04:27+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T14:04:28+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="resolved tunnel.ngrok.com has no records"
+t=2023-03-14T14:04:36+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T14:04:42+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=A\": dial tcp: lookup dns.google.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T14:04:53+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T14:05:01+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="resolved tunnel.ngrok.com has no records"
+t=2023-03-14T14:05:20+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T14:05:45+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T14:06:18+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="dial tcp: lookup tunnel.ngrok.com on 127.0.0.53:53: server misbehaving"
+t=2023-03-14T14:06:49+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2023-03-14T14:06:49+0000 lvl=info msg="client session established" obj=csess id=2655b144ad39
