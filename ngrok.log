@@ -328,3 +328,4 @@ t=2023-03-14T13:19:16+0000 lvl=eror msg="session closed, starting reconnect loop
 t=2023-03-14T13:19:27+0000 lvl=eror msg="failed to reconnect session" obj=csess id=2655b144ad39 err="context deadline exceeded"
 t=2023-03-14T13:19:30+0000 lvl=info msg="tunnel session started" obj=tunnels.session
 t=2023-03-14T13:19:30+0000 lvl=info msg="client session established" obj=csess id=2655b144ad39
+t=2023-03-14T13:37:17+0000 lvl=info msg="join connections" obj=join id=68cb350e14a5 l=127.0.0.1:8080 r=140.82.115.96:51097
